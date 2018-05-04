@@ -1,0 +1,7 @@
+77% accuracy with 2 conv-maxpool layers.
+
+Testing 3 conv-maxpool layers now:
+    - all 3x3
+    - first layer: 64
+    - second layer: 128
+    - third layer: 256
