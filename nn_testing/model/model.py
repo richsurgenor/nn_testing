@@ -149,6 +149,7 @@ def main(unused_argv):
                     steps=30)
     
         except KeyboardInterrupt:
+            print("*dab*")
             pass
 
     # Evaluate the model and print results
@@ -176,4 +177,5 @@ def main(unused_argv):
 
 if __name__ == "__main__":
     with tf.device('/device:GPU:0'):
+        tf.device.close()
         tf.app.run()    
